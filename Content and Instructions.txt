@@ -1,0 +1,48 @@
+For the top announcement bar, change it to YouTube red and add the YouTube icon next to the Subscribe button. replace the neon green accents with a more professional color that appeals to a wider audience.
+
+brandon@makemcagreatagain.com is a good general email for the site.
+
+**Header & Navigation**
+
+* **Announcement Bar:** Update background color to solid brand red with high-contrast text.
+* **Primary Action:** Add a prominent "Schedule a Call" button linked directly to Calendly in the top header.
+* **Social Links:** Ensure visible, working icons linked to official profiles on LinkedIn, Twitter (X), Instagram, Facebook, YouTube, and Blogger.
+
+**Color Palette & Styling**
+
+* **Accent Colors:** Eliminate all neon green accents across the entire site.
+* **Strategic Contrast:** Apply brand accent colors selectively to primary CTAs and conversion buttons.
+* **Typography:** Maintain high-contrast light text against dark backgrounds across all folds for maximum legibility.
+
+**Hero Section**
+
+* **Core Functions:** Retain key buttons/forms for "Request ISO Agreement" and "Request Underwriting Guidelines".
+* **Agreement Integration:** Link the "Request ISO Agreement" button directly to Proposify for automated sending, tracking, and e-signatures.
+* **Messaging:** Refine hero copy to emphasize zero-fluff underwriting, direct decision-making, fast turnarounds, and no portal runarounds.
+
+**Personal Branding & Media Assets**
+
+* **Hero Visual:** Swap standard form blocks and generic graphics for a high-res photo of Brandon.
+* **Background Visual:** Embed a 4-image collage showcasing Brandon active at industry events and partner floors, softened with a subtle background gradient.
+* **Video Section:** Replace generic stock thumbnails in "Follow the Movement" with custom video covers featuring real photos and play-button overlays.
+* **Social Proof:** Add a dedicated section featuring verified LinkedIn reviews and testimonials.
+
+**Underwriting Criteria & Messaging**
+
+* **File Standards:** Highlight funding capabilities for B through D paper.
+* **Revenue Qualification:** Explicitly state the $100k+ true monthly business revenue requirement (noting exclusions for Zelle, Cash App, and inter-account transfers).
+* **MCA Process:** Add a "How We Make MCA Great Again" section outlining streamlined submissions (App + 3 months statements), fast decisions in hours instead of days, and clear, contextual decline reasons.
+* **Community Impact:** Feature the "Doing Good in the Hood" philosophy, showing how every funded deal contributes to local community initiatives.
+
+**Lead Capture & Integrations**
+
+* **WhatsApp Chat:** Embed a floating chat widget routing messages straight to WhatsApp without displaying a raw phone number.
+* **QR Outreach:** Display a quick-scan QR code for instant WhatsApp access.
+* **CRM Connection:** Integrate all site forms and contact blocks directly into HubSpot CRM.
+* **Email Opt-In:** Add an auto-populated newsletter subscription checkbox to all submission forms.
+
+**Navigation & Architecture**
+
+* **FAQ Page:** Launch a dedicated FAQ tab addressing common ISO/partner questions, complete with an embedded chat widget.
+* **Responsive Audit:** Complete full-device testing across desktop, tablet, and mobile views prior to final deployment.
+
