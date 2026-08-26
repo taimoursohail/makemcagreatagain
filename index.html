@@ -1,60 +1,61 @@
 <!DOCTYPE html><html class="dark" lang="en"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<base id="site-base" href="./">
+<script>
+(function(){
+  var repoName = 'makemcagreatagain';
+  var host = window.location.hostname;
+  var pathname = window.location.pathname;
+  var baseHref = './';
+  if (host === 'taimoursohail.github.io') {
+    if (pathname.indexOf('/' + repoName + '/') === 0 || pathname === '/' + repoName) {
+      baseHref = '/' + repoName + '/';
+    }
+  } else if (host !== 'localhost' && host !== '127.0.0.1' && host !== '') {
+    baseHref = '/';
+  }
+  var base = document.getElementById('site-base');
+  if (base) { base.setAttribute('href', baseHref); }
+  window.__ASSET_PREFIX__ = baseHref;
+  document.addEventListener('DOMContentLoaded', function(){
+    var prefix = window.__ASSET_PREFIX__ || '';
+    var styleSheets = document.styleSheets;
+    for (var s = 0; s < styleSheets.length; s++) {
+      try {
+        var rules = styleSheets[s].cssRules || styleSheets[s].rules;
+        if (!rules) continue;
+        for (var r = 0; r < rules.length; r++) {
+          var rule = rules[r];
+          if (rule.style && rule.style.backgroundImage) {
+            var bg = rule.style.backgroundImage;
+            if (bg.indexOf("url('assets/") !== -1 || bg.indexOf('url("assets/') !== -1) {
+              var newBg = bg.replace(/url\(['"]assets\//g, 'url(' + (prefix.endsWith('/') ? prefix : prefix + '/') + 'assets/');
+              if (newBg !== bg) { rule.style.backgroundImage = newBg; }
+            }
+          }
+        }
+      } catch(e) {}
+    }
+    var imgs = document.querySelectorAll('img[src^="assets/"]');
+    for (var i = 0; i < imgs.length; i++) {
+      var src = imgs[i].getAttribute('src');
+      imgs[i].setAttribute('src', prefix + src);
+    }
+    var sources = document.querySelectorAll('source[srcset^="assets/"]');
+    for (var j = 0; j < sources.length; j++) {
+      var ssrc = sources[j].getAttribute('srcset');
+      sources[j].setAttribute('srcset', prefix + ssrc);
+    }
+  });
+})();
+</script>
 <title>Make MCA Great Again</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <script>tailwind.config = {darkMode: "class", theme: {extend: {colors: {"tertiary-fixed-dim": "#B8860B", "inverse-surface": "#dfe2ea", outline: "#909098", primary: "#bfc5e4", background: "#0f1419", "on-primary-container": "#767c99", "on-tertiary-fixed-variant": "#5a4206", "deep-navy": "#0A1128", "inverse-on-surface": "#2c3137", "on-tertiary-fixed": "#2a1f02", "primary-fixed": "#dce1ff", "on-tertiary": "#3d2d04", "surface-container": "#1c2026", "surface-container-highest": "#31353b", "inverse-primary": "#575d78", "secondary-fixed-dim": "#b7c4ff", tertiary: "#B8860B", "surface-variant": "#31353b", "on-surface-variant": "#c6c6ce", "urgent-red": "#FF0000", "surface-tint": "#bfc5e4", "error-container": "#93000a", "on-error": "#690005", "secondary-container": "#0052fe", "on-primary-fixed-variant": "#3f465f", "on-error-container": "#ffdad6", "surface-container-high": "#262a30", "primary-container": "#0a1128", "on-secondary-container": "#dfe3ff", "charcoal-dark": "#222222", error: "#ffb4ab", "on-secondary": "#002682", "surface-container-low": "#181c21", "surface-bright": "#353940", "primary-fixed-dim": "#bfc5e4", "tertiary-fixed": "#E6C35C", "on-primary": "#292f48", "outline-variant": "#46464d", "on-background": "#dfe2ea", "secondary-fixed": "#dde1ff", "accent-gold": "#B8860B", "accent-gold-light": "#D4AF37", "accent-gold-dark": "#8B6914", "youtube-red": "#FF0000", "on-tertiary-container": "#D4AF37", "on-surface": "#dfe2ea", "on-secondary-fixed-variant": "#0038b6", secondary: "#b7c4ff", "tertiary-container": "#1a1302", "on-primary-fixed": "#141a32", "surface-container-lowest": "#0a0f14", "on-secondary-fixed": "#001452", "pure-white": "#FFFFFF", surface: "#0f1419", "surface-dim": "#0f1419"}, borderRadius: {DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px"}, spacing: {"section-gap-desktop": "120px", gutter: "24px", "section-gap-mobile": "64px", "container-max": "1280px", "nav-height": "80px", base: "8px", "announcement-height": "40px"}, fontFamily: {"headline-md": ["Montserrat", "sans-serif"], "headline-lg": ["Montserrat", "sans-serif"], "display-lg": ["Montserrat", "sans-serif"], "button-text": ["Montserrat", "sans-serif"], "body-lg": ["Inter", "sans-serif"], "label-caps": ["Work Sans", "sans-serif"], "headline-lg-mobile": ["Montserrat", "sans-serif"], "body-md": ["Inter", "sans-serif"], headline: ["Montserrat"], display: ["Montserrat"], body: ["Inter"], label: ["Work Sans"]}, fontSize: {"headline-md": ["24px", {lineHeight: "32px", fontWeight: "700"}], "headline-lg": ["40px", {lineHeight: "48px", letterSpacing: "-0.01em", fontWeight: "700"}], "display-lg": ["64px", {lineHeight: "72px", letterSpacing: "-0.02em", fontWeight: "800"}], "button-text": ["16px", {lineHeight: "20px", fontWeight: "700"}], "body-lg": ["18px", {lineHeight: "28px", fontWeight: "400"}], "label-caps": ["12px", {lineHeight: "16px", letterSpacing: "0.1em", fontWeight: "700"}], "headline-lg-mobile": ["32px", {lineHeight: "40px", fontWeight: "700"}], "body-md": ["16px", {lineHeight: "24px", fontWeight: "400"}]}}}};</script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Montserrat:wght@700;800&amp;family=Work+Sans:wght@700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<script>
-    (function() {
-        try {
-            var loc = window.location;
-            var pathParts = loc.pathname.split('/');
-            pathParts.pop();
-            var baseDir = loc.origin + pathParts.join('/') + (pathParts.length ? '/' : '/');
-            window.__ASSETS_BASE__ = baseDir;
-            document.documentElement.style.setProperty('--assets-base', 'url("' + baseDir + '")');
-            window.resolveAsset = function(relPath) {
-                if (/^(https?:|data:|mailto:|#|tel:)/i.test(relPath)) return relPath;
-                if (relPath.charAt(0) === '/' && relPath.charAt(1) !== '/') {
-                    return loc.origin + relPath;
-                }
-                return baseDir + relPath.replace(/^\.\//, '');
-            };
-            document.addEventListener('DOMContentLoaded', function() {
-                var imgs = document.querySelectorAll('img[src]');
-                for (var i = 0; i < imgs.length; i++) {
-                    var src = imgs[i].getAttribute('src');
-                    if (src && src.indexOf('assets/') === 0 || src && src.indexOf('./assets/') === 0) {
-                        imgs[i].src = window.resolveAsset(src);
-                    }
-                }
-                var styled = document.querySelectorAll('[style*="assets/"]');
-                for (var j = 0; j < styled.length; j++) {
-                    var s = styled[j].getAttribute('style');
-                    if (s && s.indexOf('assets/') !== -1) {
-                        styled[j].setAttribute('style', s.replace(/url\(['"]?(\.\/)?assets\//g, 'url("' + baseDir + 'assets/'));
-                    }
-                }
-                var collageElems = document.querySelectorAll('.collage-bg');
-                var heroImg = 'assets/WhatsApp Image 2026-08-25 at 22.19.26 (2).jpeg';
-                var resolvedHero = window.resolveAsset(heroImg);
-                for (var k = 0; k < collageElems.length; k++) {
-                    collageElems[k].style.backgroundImage =
-                        'linear-gradient(135deg, rgba(10,17,40,0.88) 0%, rgba(10,17,40,0.72) 50%, rgba(10,17,40,0.92) 100%), url("' + resolvedHero + '")';
-                    collageElems[k].style.backgroundPosition = 'center center';
-                    collageElems[k].style.backgroundSize = 'cover';
-                    collageElems[k].style.backgroundRepeat = 'no-repeat';
-                }
-            });
-        } catch(e) { console.warn('Asset resolver error:', e); }
-    })();
-    </script>
-    <style>
-        :root {
-            --assets-base-path: './';
-        }
+<style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
