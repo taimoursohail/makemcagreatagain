@@ -1,4 +1,5 @@
-# Make MCA Great Again — High-Converting Landing Page & Lead Engine
+# Make MCA Great Again  
+High-Converting Landing Page & Lead Engine
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=flat&logo=tailwindcss)
