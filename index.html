@@ -7,41 +7,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- ═══════════════════════════════════════════════════
-     ANALYTICS TRACKING PLACEHOLDERS (Req. 10)
-     Replace each block with real credentials before launch.
-════════════════════════════════════════════════════ -->
 
-<!-- Google Tag Manager HEAD PLACEHOLDER -->
-<!-- Paste your GTM <script> snippet here -->
-<!-- Example:
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
--->
-
-<!-- Meta Pixel PLACEHOLDER -->
-<!-- Paste your Meta Pixel base code here -->
-<!-- Example:
-<script>!function(f,b,e,v,n,t,s){...}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','YOUR_PIXEL_ID');fbq('track','PageView');</script>
--->
-
-<!-- LinkedIn Insight Tag PLACEHOLDER -->
-<!-- Paste your LinkedIn Insight Tag here -->
-<!-- Example:
-<script type="text/javascript">_linkedin_partner_id="XXXXXXX";window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[];window._linkedin_data_partner_ids.push(_linkedin_partner_id);</script>
--->
-
-<!-- IP Intelligence PLACEHOLDER (Snitcher / Leadfeeder) -->
-<!-- Paste your Snitcher or Leadfeeder script here -->
-<!-- Snitcher example: <script>...snitcher init code...</script> -->
-
-<!-- dataLayer init for GTM events -->
 <script>window.dataLayer = window.dataLayer || [];</script>
-
-<!-- Base href detection script -->
 <script>
 (function(){
   var repoName = 'makemcagreatagain';
@@ -74,37 +41,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })();
 </script>
 
-<!-- ═══════════════════════════════════════════════════
-     SEO & GEO META (Req. 9)
-════════════════════════════════════════════════════ -->
 <title>Make MCA Great Again | Direct MCA Funder | ISO Partner Program | Brandon</title>
 <meta name="description" content="Direct MCA Funder with zero-fluff underwriting. B–D paper funded. $100k+ monthly revenue files. Fast turnarounds, direct decisions, and real ISO partner relationships. No portals, no runarounds.">
 <meta name="keywords" content="Direct MCA Funder, Merchant Cash Advance, ISO Partner Program, MCA Underwriting, Business Funding, Alternative Finance, B Paper Funding, D Paper MCA, Fast MCA Approval, ISO Agreement">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Brandon — Make MCA Great Again">
 
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://makemcagreatagain.com/">
 <meta property="og:title" content="Make MCA Great Again | Direct MCA Funder">
 <meta property="og:description" content="Direct MCA Funder. B–D paper. $100k+ monthly revenue. Zero-fluff underwriting, direct decisions, fast turnarounds. Join our ISO Partner Program.">
 <meta property="og:image" content="https://makemcagreatagain.com/assets/WhatsApp%20Image%202026-08-25%20at%2022.19.26%20(2).jpeg">
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Make MCA Great Again | Direct MCA Funder">
 <meta name="twitter:description" content="Direct MCA Funder. B–D paper. $100k+ monthly revenue. Zero-fluff underwriting, fast turnarounds.">
 <meta name="twitter:image" content="https://makemcagreatagain.com/assets/WhatsApp%20Image%202026-08-25%20at%2022.19.26%20(2).jpeg">
 
-<!-- Canonical & Sitemap -->
 <link rel="canonical" href="https://makemcagreatagain.com/">
 <link rel="sitemap" type="application/xml" href="sitemap.xml">
-<!-- XML Sitemap: https://makemcagreatagain.com/sitemap.xml -->
-<!-- Sitemap should include: /, #apply, #iso-program, #buy-box, #partner-insights, #press -->
-
-<!-- ═══════════════════════════════════════════════════
-     JSON-LD SCHEMA MARKUP (Req. 2 + 9)
-════════════════════════════════════════════════════ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -255,7 +210,6 @@ tailwind.config = {
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
 
 <style>
-  /* ── Lightweight motion system ── */
   @keyframes mca-rise-in {
     from { opacity: 0; transform: translate3d(0, 22px, 0); }
     to { opacity: 1; transform: translate3d(0, 0, 0); }
@@ -281,7 +235,6 @@ tailwind.config = {
     .motion-reveal { opacity: 1; transform: none; }
   }
 
-  /* ── Mobile navigation glass treatment ── */
   .mobile-navbar,
   .mobile-menu-toggle,
   #mobile-menu-panel,
@@ -310,10 +263,8 @@ tailwind.config = {
     .mobile-menu-open .sticky-mobile-bar { visibility: hidden; pointer-events: none; }
   }
 
-  /* ── Material Icons ── */
   .material-symbols-outlined { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
 
-  /* ── Primary Button ── */
   .btn-primary {
     background-color: #B8860B;
     color: #FFFFFF;
@@ -323,7 +274,6 @@ tailwind.config = {
   .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 6px 0 #6F5208; background-color: #D4AF37; }
   .btn-primary:active { transform: translateY(2px); box-shadow: 0 2px 0 #6F5208; }
 
-  /* ── Gold Outline Button ── */
   .btn-gold-outline {
     border: 1.5px solid #B8860B;
     color: #B8860B;
@@ -331,7 +281,6 @@ tailwind.config = {
   }
   .btn-gold-outline:hover { background-color: rgba(184,134,11,0.12); transform: translateY(-1px); }
 
-  /* ── WhatsApp Button ── */
   .btn-whatsapp {
     background-color: #B8860B;
     color: #FFFFFF;
@@ -348,17 +297,14 @@ tailwind.config = {
     background-size: cover, cover;
   }
 
-  /* ── Accordion ── */
   .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.35s ease-out; }
   .accordion-content.open { max-height: 600px; }
     
-  /* ── Sub-page sections (hidden by default, shown via hash routing) ── */
   .subpage-section { display: none; }
   .subpage-section.active { display: block; }
   .homepage-section { display: block; }
   .homepage-section.hidden-by-route { display: none; }
 
-  /* ── Video Facade ── */
   .video-facade {
     position: relative;
     background: #0a0f14;
@@ -387,7 +333,6 @@ tailwind.config = {
   .video-facade.playing .play-overlay { display: none; }
   .video-facade.playing img.poster { display: none; }
 
-  /* ── Vertical Reels Carousel ── */
   .reels-scroll {
     display: flex;
     flex-direction: column;
@@ -410,7 +355,6 @@ tailwind.config = {
   }
   .reel-item:hover { border-color: #B8860B; }
 
-  /* ── Floating Multi-Channel Widget ── */
   .float-widget { position: fixed; bottom: 24px; right: 24px; z-index: 70; }
   .float-widget-panel {
     position: absolute; bottom: 76px; right: 0;
@@ -450,7 +394,6 @@ tailwind.config = {
   }
   .float-action-btn:hover { border-color: #B8860B; background: #31353b; color: #fff; }
 
-  /* ── Sticky Mobile Bottom Bar ── */
   .sticky-mobile-bar {
     position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
     display: flex;
@@ -461,7 +404,6 @@ tailwind.config = {
   }
   @media(min-width: 768px) { .sticky-mobile-bar { display: none; } }
 
-  /* ── Form success message ── */
   .form-success {
     display: none;
     background: rgba(184,134,11,0.12);
@@ -472,7 +414,6 @@ tailwind.config = {
   }
   .form-success.show { display: block; }
 
-  /* ── Target Profile Badge ── */
   .profile-badge {
     display: inline-flex; align-items: center; gap: 8px;
     background: rgba(10,17,40,0.85);
@@ -494,7 +435,6 @@ tailwind.config = {
     color: #c6c6ce;
   }
 
-  /* ── Share bar (sub-pages) ── */
   .share-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
   .share-btn {
     display: flex; align-items: center; gap: 6px;
@@ -509,7 +449,6 @@ tailwind.config = {
   }
   .share-btn:hover { border-color: #B8860B; background: #262a30; }
 
-  /* ── Sticky CTA box (blog articles) ── */
   .sticky-article-cta {
     position: sticky; bottom: 16px;
     background: linear-gradient(135deg, #0A1128, #1c2026);
@@ -522,7 +461,6 @@ tailwind.config = {
     box-shadow: 0 8px 40px rgba(184,134,11,0.2);
   }
 
-  /* ── Buy-box table ── */
   .buybox-table { width: 100%; border-collapse: collapse; }
   .buybox-table th {
     background: #0A1128; color: #B8860B;
@@ -535,7 +473,6 @@ tailwind.config = {
   }
   .buybox-table tr:hover td { background: #1c2026; }
 
-  /* ── File Upload ── */
   .file-drop-zone {
     border: 2px dashed #B8860B;
     border-radius: 12px;
@@ -547,7 +484,6 @@ tailwind.config = {
   }
   .file-drop-zone:hover, .file-drop-zone.dragover { border-color: #B8860B; background: #262a30; }
 
-  /* ── LinkedIn Feed Placeholder ── */
   .linkedin-feed-placeholder {
     background: #1c2026;
     border: 1px solid #46464d;
@@ -558,10 +494,8 @@ tailwind.config = {
     display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
   }
 
-  /* ── Smooth scroll for homepage ── */
   html { scroll-behavior: smooth; }
 
-  /* ── Input focus styles ── */
   .mca-input {
     background: #1c2026;
     border: 1px solid #46464d;
@@ -580,7 +514,6 @@ tailwind.config = {
     color: #c6c6ce; margin-bottom: 4px; display: block;
   }
 
-  /* ── Press room ── */
   .press-card {
     background: #1c2026;
     border: 1px solid #31353b;
@@ -593,15 +526,7 @@ tailwind.config = {
 </head>
 
 <body class="bg-background text-on-surface font-body-md antialiased overflow-x-hidden selection:bg-accent-gold selection:text-deep-navy">
-
-<!-- Google Tag Manager (noscript) — PLACEHOLDER -->
-<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-
 <div class="content-layer">
-
-<!-- ═══════════════════════════════════════════════════
-     ANNOUNCEMENT BAR
-════════════════════════════════════════════════════ -->
 <div class="h-[40px] flex items-center justify-center px-4 md:px-6 sticky top-0 z-[50] text-white border-b border-red-700" style="background-color:#FF0000;">
   <div class="flex items-center justify-between md:justify-center w-full max-w-[1280px] gap-4 text-[10px] md:text-[12px] font-bold">
     <span class="hidden md:inline font-bold tracking-wide">&nbsp;📺 Catch our latest deal breakdowns &amp; industry insights: @makeMCAgreatagain</span>
@@ -615,17 +540,12 @@ tailwind.config = {
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
-     HEADER / NAV
-════════════════════════════════════════════════════ -->
  <header class="mobile-navbar bg-deep-navy/90 backdrop-blur-md z-50 border-b border-outline-variant sticky top-[40px] w-full">
   <div class="h-[80px] flex items-center justify-between px-6 max-w-[1280px] mx-auto">
-    <!-- Logo -->
     <a class="font-bold text-accent-gold tracking-tighter flex items-center gap-2 hover:opacity-80 transition-opacity" href="#" onclick="navigateTo('home')">
       <img src="assets/LOGO.jpeg" alt="Make MCA Great Again Logo" class="w-12 h-12 rounded object-cover">
       <span class="hidden sm:inline font-[Montserrat] text-[18px]">MAKE MCA GREAT AGAIN</span>
     </a>
-    <!-- Desktop Nav — homepage anchors only (Req. 9) -->
     <nav class="hidden md:flex items-center gap-5">
       <a class="text-on-surface-variant hover:text-accent-gold transition-colors font-bold text-[15px]" href="#process" onclick="navigateTo('home')">Process</a>
       <a class="text-on-surface-variant hover:text-accent-gold transition-colors font-bold text-[15px]" href="#videos" onclick="navigateTo('home')">Videos</a>
@@ -633,9 +553,7 @@ tailwind.config = {
       <a class="text-on-surface-variant hover:text-accent-gold transition-colors font-bold text-[15px]" href="#faq" onclick="navigateTo('home')">FAQ</a>
       <a class="text-on-surface-variant hover:text-accent-gold transition-colors font-bold text-[15px]" href="#contact" onclick="navigateTo('home')">Contact</a>
     </nav>
-    <!-- Desktop CTAs -->
     <div class="hidden lg:flex items-center gap-3">
-      <!-- Schedule Executive Call (Req. 7) -->
       <a class="btn-gold-outline px-4 py-2 rounded-lg font-bold text-[14px] flex items-center gap-2"
          href="https://calendly.com/brandon-makemca" target="_blank" rel="noopener">
         <span class="material-symbols-outlined text-[16px]">calendar_month</span>
@@ -643,7 +561,6 @@ tailwind.config = {
       </a>
       <a class="btn-primary px-5 py-2 rounded-lg font-bold text-[14px]" href="#guidelines">Request ISO Agreement</a>
     </div>
-    <!-- Mobile Hamburger -->
      <button id="mobile-menu-btn" aria-label="Open Menu" aria-controls="mobile-menu-drawer" aria-expanded="false" class="mobile-menu-toggle lg:hidden flex flex-col justify-center items-center w-12 h-12 gap-1.5 p-2 rounded-xl focus:outline-none group transition-all duration-300">
       <span class="w-6 h-0.5 bg-accent-gold rounded-full transition-all duration-300 origin-center group-[.open]:rotate-45 group-[.open]:translate-y-2"></span>
       <span class="w-6 h-0.5 bg-accent-gold rounded-full transition-all duration-300 group-[.open]:opacity-0"></span>
@@ -652,9 +569,6 @@ tailwind.config = {
   </div>
 </header>
 
-<!-- ═══════════════════════════════════════════════════
-     MOBILE HAMBURGER DRAWER
-════════════════════════════════════════════════════ -->
 <div id="mobile-menu-drawer" class="mobile-menu-drawer fixed inset-0 z-[55] pointer-events-none" role="dialog" aria-modal="true" aria-label="Mobile navigation">
   <div id="mobile-menu-overlay" class="absolute inset-0 bg-black/60 opacity-0 transition-opacity duration-300"></div>
   <div id="mobile-menu-panel" class="absolute top-0 right-0 h-full w-[85%] max-w-[360px] bg-deep-navy border-l border-outline-variant shadow-2xl transform translate-x-full transition-transform duration-300 ease-out flex flex-col">
@@ -693,20 +607,12 @@ tailwind.config = {
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
-     MAIN — HOMEPAGE (shown by default)
-════════════════════════════════════════════════════ -->
 <main id="homepage-main" class="w-full">
 
-<!-- ─────────────────────────────────────────────────
-     HERO SECTION (Req. 1 + 6 + 7)
-───────────────────────────────────────────────── -->
  <section class="noise-bg collage-bg min-h-[920px] flex items-center relative py-16 md:py-24 border-b border-outline-variant" id="hero">
         <div class="max-w-[1280px] mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 relative z-10">
 
-            <!-- LEFT: Copy + CTAs -->
             <div class="flex flex-col justify-center gap-6">
-                <!-- Target Profile Badges (Req. 6) -->
                 <div class="flex flex-wrap gap-3 mb-2">
                     <span class="profile-badge">
                         <span class="material-symbols-outlined text-[14px]">verified</span>
@@ -726,7 +632,6 @@ tailwind.config = {
                     I travel the country, hit ISO floors face-to-face, and champion your deals directly. Streamlined submissions. Fast decisions. Real context on every answer.
                 </p>
 
-                <!-- Feature Checkmarks -->
                 <div class="flex flex-wrap gap-x-6 gap-y-3 mt-4">
                     <div class="flex items-center gap-2"><span class="material-symbols-outlined text-accent-gold">done</span><span class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-pure-white">FAST TURNAROUND (HOURS, NOT DAYS)</span></div>
                     <div class="flex items-center gap-2"><span class="material-symbols-outlined text-accent-gold">done</span><span class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-pure-white">B–D PAPER FUNDED</span></div>
@@ -734,7 +639,6 @@ tailwind.config = {
                     <div class="flex items-center gap-2"><span class="material-symbols-outlined text-accent-gold">done</span><span class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-pure-white">REAL ECONOMIC IMPACT</span></div>
                 </div>
 
-                <!-- Hero Primary WhatsApp CTA (Req. 7) -->
                 <div class="flex flex-wrap gap-4 mt-6">
                     <a href="https://wa.me/19995551234?text=Hi%20Brandon%2C%20I%20have%20a%20%24100k%2B%20file%20ready%20to%20discuss." target="_blank" rel="noopener" class="btn-whatsapp px-7 py-4 rounded-xl font-bold text-[15px] flex items-center gap-2" onclick="fireEvent('Click_WhatsApp_Desk','hero_primary_cta')">
                         <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path></svg>
@@ -751,13 +655,11 @@ tailwind.config = {
                 </span>
             </div>
 
-            <!-- RIGHT: Onboarding Form + Video Facade (Req. 1) -->
             <div class="flex flex-col gap-6">
 
 
 
 
-                <!-- Hero Lead Capture Form (Req. 5) -->
                 <div class="bg-charcoal-dark/95 backdrop-blur-sm border-t-2 border-accent-gold p-7 rounded-xl shadow-2xl flex flex-col gap-5 relative" id="guidelines">
                     <div class="absolute -top-4 -right-4 bg-urgent-red text-pure-white font-bold text-[10px] tracking-widest px-4 py-1 rounded-sm rotate-3 shadow-lg">HIGH PRIORITY</div>
                     <div>
@@ -768,7 +670,6 @@ tailwind.config = {
                         <input id="formIntent" name="Form_Intent" type="hidden" value="">
                         <input type="hidden" name="lead_source_detail" value="direct|home|guidelines">
                         <input type="hidden" name="form_id" value="hero_onboarding">
-                        <!-- HubSpot field mapping: hs_portal_id="YOUR_HUBSPOT_PORTAL_ID" hs_form_id="YOUR_FORM_GUID" -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div><label class="mca-label">Full Name</label><input class="mca-input" placeholder="John Doe" required="" type="text" name="full_name"></div>
                             <div><label class="mca-label">ISO / Company Name</label><input class="mca-input" placeholder="Acme Brokerage" required="" type="text" name="company"></div>
@@ -793,10 +694,10 @@ tailwind.config = {
                         </div>
                     </form>
                 </div>
-                <!-- 16:9 Video Facade (Req. 1) — LCP optimized, lazy play --><div class="video-facade rounded-xl overflow-hidden border-2 border-accent-gold/40 shadow-2xl" style="aspect-ratio:16/9;" id="heroVideoFacade" role="button" tabindex="0" aria-label="Play Brandon's funding overview video" onclick="playHeroVideo()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();playHeroVideo();}">
+                         <div class="video-facade rounded-xl overflow-hidden border-2 border-accent-gold/40 shadow-2xl" style="aspect-ratio:16/9;" id="heroVideoFacade" role="button" tabindex="0" aria-label="Play Brandon's funding overview video" onclick="playHeroVideo()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();playHeroVideo();}">
                     <img class="poster" src="./assets/WhatsApp Image 2026-08-25 at 22.19.21 (1).jpeg" alt="Brandon — Make MCA Great Again video" loading="eager" fetchpriority="high" decoding="async">
                     <video id="heroVideo" muted="" playsinline="" preload="none" poster="assets/WhatsApp Image 2026-08-25 at 22.19.21 (1).jpeg">
-                        <!-- Set data-src to the production MP4 before launch. It is copied to src only after interaction. -->
+                    
                         <source data-src="assets/hero.mp4" type="video/mp4">
                         <track kind="captions" label="English" srclang="en" data-src="assets/hero-captions.vtt" default="">
                         Your browser does not support the video tag.
@@ -815,9 +716,6 @@ tailwind.config = {
         </div>
     </section>
 
-<!-- ─────────────────────────────────────────────────
-     VERTICAL SHORT-VIDEO CAROUSEL — REELS STYLE (Req. 1)
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-20 bg-surface-container-lowest/80 backdrop-blur-sm px-6 border-b border-outline-variant">
   <div class="max-w-[1280px] mx-auto flex flex-col gap-10">
     <div class="text-center">
@@ -827,10 +725,8 @@ tailwind.config = {
     </div>
 
     <div class="flex flex-col lg:flex-row gap-8 items-start justify-center">
-      <!-- Reels Container -->
       <div class="w-full lg:w-auto flex flex-col items-center gap-4">
         <div class="reels-scroll w-full lg:w-[340px]" id="reelsContainer">
-          <!-- Reel 1 -->
           <div class="reel-item" style="aspect-ratio:9/16;width:100%;max-width:340px;">
             <div class="video-facade h-full" onclick="lazyLoadReel(this,'BGIXFkAS8mw')">
               <img class="poster h-full w-full" src="assets/WhatsApp Image 2026-08-25 at 22.19.22 (1).jpeg" alt="Deal breakdown reel" loading="lazy">
@@ -843,7 +739,6 @@ tailwind.config = {
               <div class="absolute hidden reel-iframe-container inset-0"></div>
             </div>
           </div>
-          <!-- Reel 2 -->
           <div class="reel-item" style="aspect-ratio:9/16;width:100%;max-width:340px;">
             <div class="video-facade h-full" onclick="lazyLoadReel(this,'pBSuuNVOm1M')">
               <img class="poster h-full w-full" src="assets/WhatsApp Image 2026-08-25 at 22.19.23 (2).jpeg" alt="ISO floor reel" loading="lazy">
@@ -856,7 +751,6 @@ tailwind.config = {
               <div class="absolute hidden reel-iframe-container inset-0"></div>
             </div>
           </div>
-          <!-- Reel 3 -->
           <div class="reel-item" style="aspect-ratio:9/16;width:100%;max-width:340px;">
             <div class="video-facade h-full" onclick="lazyLoadReel(this,'TfJta_SvxFM')">
               <img class="poster h-full w-full" src="assets/WhatsApp Image 2026-08-25 at 22.19.24.jpeg" alt="Market insights reel" loading="lazy">
@@ -870,7 +764,6 @@ tailwind.config = {
             </div>
           </div>
         </div>
-        <!-- Carousel controls -->
         <div class="flex gap-3 mt-2">
           <button onclick="scrollReels(-1)" class="btn-gold-outline px-4 py-2 rounded-lg font-bold text-[13px] flex items-center gap-1">
             <span class="material-symbols-outlined text-[18px]">arrow_upward</span> Prev
@@ -881,7 +774,6 @@ tailwind.config = {
         </div>
       </div>
 
-      <!-- LinkedIn Feed Placeholder (Req. 8) -->
       <div class="flex-1 w-full">
         <div class="linkedin-feed-placeholder">
           <svg class="w-12 h-12 text-accent-gold opacity-60" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -889,8 +781,6 @@ tailwind.config = {
           <p class="font-[Inter] text-[14px] text-on-surface-variant max-w-xs text-center">
             Paste your LinkedIn page embed widget code here to display a live feed of posts, deal announcements, and ISO news.
           </p>
-          <!-- ← PASTE YOUR LINKEDIN FEED EMBED CODE HERE → -->
-          <!-- Example: <script src="https://widgets.sociablekit.com/linkedin-page-posts/widget.js" ...></script> -->
           <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="btn-gold-outline px-5 py-2 rounded-lg font-bold text-[13px] flex items-center gap-2 mt-2">
             <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
             Follow on LinkedIn
@@ -901,9 +791,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     PROCESS SECTION
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-[120px] bg-surface/80 backdrop-blur-sm px-6 border-b border-outline-variant" id="process">
   <div class="max-w-[1280px] mx-auto flex flex-col gap-12">
     <div class="text-center flex flex-col items-center gap-4">
@@ -977,9 +864,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     DIRECT FILE SUBMISSION
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-[120px] bg-surface-container-lowest/80 backdrop-blur-sm px-6 border-b border-outline-variant" id="submit">
   <div class="max-w-[1280px] mx-auto flex flex-col md:flex-row items-center gap-12">
     <div class="flex-1 flex flex-col gap-6">
@@ -1027,9 +911,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     VIDEO HUB & SOCIAL
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-[120px] bg-surface/80 backdrop-blur-sm px-6 border-b border-outline-variant" id="videos">
   <div class="max-w-[1280px] mx-auto flex flex-col gap-12">
     <div class="flex flex-col md:flex-row justify-between items-end gap-6 border-b border-outline-variant pb-6">
@@ -1073,9 +954,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     TESTIMONIALS
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-[120px] bg-surface-container-lowest/80 backdrop-blur-sm px-6 border-b border-outline-variant" id="testimonials">
   <div class="max-w-[1280px] mx-auto flex flex-col gap-12">
     <div class="text-center flex flex-col items-center gap-4">
@@ -1115,9 +993,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     COMMUNITY / MISSION
-───────────────────────────────────────────────── -->
 <section class="noise-bg py-16 md:py-[120px] bg-deep-navy/85 backdrop-blur-sm px-6 border-b border-outline-variant" id="mission">
   <div class="max-w-[1280px] mx-auto text-center flex flex-col items-center gap-6">
     <span class="material-symbols-outlined text-accent-gold text-[48px]">public</span>
@@ -1149,9 +1024,6 @@ tailwind.config = {
   </div>
 </section>
 
-<!-- ─────────────────────────────────────────────────
-     FAQ SECTION (with JSON-LD schema already in <head>)
-───────────────────────────────────────────────── -->
 <section class="py-16 md:py-[120px] bg-surface/80 backdrop-blur-sm px-6 border-b border-outline-variant" id="faq">
   <div class="max-w-4xl mx-auto flex flex-col gap-12">
     <div class="text-center flex flex-col items-center gap-4">
@@ -1230,16 +1102,7 @@ tailwind.config = {
   </div>
 </section>
 
-</main><!-- /#homepage-main -->
-
-<!-- ═══════════════════════════════════════════════════
-     SUB-PAGES — hidden by default, shown via hash routing (Req. 9)
-════════════════════════════════════════════════════ -->
-
-<!-- ─────────────────────────────────────────────────
-     /partner-insights — BLOG & INSIGHTS HUB (Req. 2)
-     JSON-LD Article schema injected dynamically
-───────────────────────────────────────────────── -->
+</main>
 <div id="subpage-partner-insights" class="subpage-section">
   <script type="application/ld+json" id="blog-schema">
   {
@@ -1253,7 +1116,6 @@ tailwind.config = {
 
   <section class="py-16 md:py-[120px] bg-surface/80 px-6 border-b border-outline-variant">
     <div class="max-w-[1280px] mx-auto flex flex-col gap-12">
-      <!-- Share Bar (Req. 8) -->
       <div class="flex items-center justify-between flex-wrap gap-4">
         <div>
           <a href="#" onclick="navigateTo('home')" class="text-accent-gold font-bold text-[13px] flex items-center gap-1 hover:underline mb-3">
@@ -1277,9 +1139,7 @@ tailwind.config = {
         </div>
       </div>
 
-      <!-- Blog Index Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Article 1 -->
         <article class="bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:border-accent-gold transition-colors flex flex-col" itemscope itemtype="https://schema.org/Article">
           <img src="assets/WhatsApp Image 2026-08-25 at 22.19.21 (2).jpeg" alt="Why B-D Paper Is The Real Opportunity" class="w-full h-48 object-cover" loading="lazy" itemprop="image">
           <div class="p-6 flex flex-col gap-3 flex-1">
@@ -1296,7 +1156,6 @@ tailwind.config = {
             </div>
           </div>
         </article>
-        <!-- Article 2 -->
         <article class="bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:border-accent-gold transition-colors flex flex-col" itemscope itemtype="https://schema.org/Article">
           <img src="assets/WhatsApp Image 2026-08-25 at 22.19.25 (1).jpeg" alt="3 Months Bank Statements" class="w-full h-48 object-cover" loading="lazy" itemprop="image">
           <div class="p-6 flex flex-col gap-3 flex-1">
@@ -1313,7 +1172,6 @@ tailwind.config = {
             </div>
           </div>
         </article>
-        <!-- Article 3 -->
         <article class="bg-surface-container border border-outline-variant rounded-xl overflow-hidden hover:border-accent-gold transition-colors flex flex-col" itemscope itemtype="https://schema.org/Article">
           <img src="assets/WhatsApp Image 2026-08-25 at 22.19.27.jpeg" alt="ISO Commission Structures" class="w-full h-48 object-cover" loading="lazy" itemprop="image">
           <div class="p-6 flex flex-col gap-3 flex-1">
@@ -1332,7 +1190,6 @@ tailwind.config = {
         </article>
       </div>
 
-      <!-- Blog Lead Capture Form (Req. 5) -->
       <div class="bg-deep-navy/80 border border-accent-gold/30 rounded-2xl p-8 md:p-12 mt-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
@@ -1358,9 +1215,6 @@ tailwind.config = {
   </section>
 </div>
 
-<!-- ─────────────────────────────────────────────────
-     /apply — APPLICATION PAGE (Req. 3)
-───────────────────────────────────────────────── -->
 <div id="subpage-apply" class="subpage-section">
   <section class="py-16 md:py-[120px] bg-surface/80 px-6">
     <div class="max-w-[900px] mx-auto flex flex-col gap-10">
@@ -1380,13 +1234,11 @@ tailwind.config = {
         </div>
       </div>
 
-      <!-- Application Form (HubSpot-ready) -->
       <div class="bg-charcoal-dark/90 border-t-2 border-accent-gold rounded-2xl p-8 shadow-2xl">
         <form id="applyForm" class="flex flex-col gap-6">
           <input type="hidden" name="lead_source_detail" value="apply">
           <input type="hidden" name="form_id" value="broker_application">
           <input type="hidden" name="revenue_routing" id="revenueRouting" value="">
-          <!-- HubSpot: hs_portal_id="YOUR_HUBSPOT_PORTAL_ID" hs_form_id="YOUR_APPLY_FORM_GUID" -->
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div><label class="mca-label">Business Legal Name *</label><input class="mca-input" type="text" name="business_legal_name" placeholder="Acme Logistics LLC" required></div>
@@ -1404,8 +1256,6 @@ tailwind.config = {
               </select>
             </div>
           </div>
-
-          <!-- Revenue-based routing message (shown dynamically) -->
           <div id="priorityDeskMsg" class="hidden bg-[#0a1128] border border-accent-gold rounded-xl p-4 flex items-start gap-3">
             <span class="material-symbols-outlined text-accent-gold shrink-0">rocket_launch</span>
             <div>
@@ -1427,7 +1277,6 @@ tailwind.config = {
             </div>
           </div>
 
-          <!-- Multi-file uploader (Req. 3) -->
           <div>
             <label class="mca-label mb-2">Upload Documents (App + Bank Statements)</label>
             <div class="file-drop-zone" id="fileDropZone" onclick="document.getElementById('fileInput').click()" ondragover="handleDragOver(event)" ondrop="handleDrop(event)" ondragleave="handleDragLeave(event)">
@@ -1459,9 +1308,6 @@ tailwind.config = {
   </section>
 </div>
 
-<!-- ─────────────────────────────────────────────────
-     /iso-program — ISO PROGRAM & PROPOSIFY FLOW (Req. 4)
-───────────────────────────────────────────────── -->
 <div id="subpage-iso-program" class="subpage-section">
   <section class="py-16 md:py-[120px] bg-surface/80 px-6">
     <div class="max-w-[1280px] mx-auto flex flex-col gap-12">
@@ -1475,7 +1321,6 @@ tailwind.config = {
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-        <!-- Buy Box / Guidelines -->
         <div class="flex flex-col gap-8">
           <div class="bg-deep-navy/80 border border-accent-gold/30 rounded-2xl p-8">
             <h2 class="font-[Montserrat] font-bold text-[22px] text-pure-white mb-6 flex items-center gap-2">
@@ -1531,13 +1376,11 @@ tailwind.config = {
           </div>
         </div>
 
-        <!-- Proposify ISO Agreement Form -->
         <div class="flex flex-col gap-6">
           <div class="bg-charcoal-dark/90 border-t-2 border-accent-gold rounded-2xl p-8 shadow-2xl sticky top-[130px]">
             <div class="absolute -top-4 -right-4 bg-accent-gold text-deep-navy font-bold text-[10px] tracking-widest px-4 py-1 rounded-sm -rotate-2 shadow-lg">E-SIGNATURE READY</div>
             <h2 class="font-[Montserrat] font-bold text-[22px] text-pure-white mb-2">Request ISO Partner Agreement</h2>
             <p class="font-[Inter] text-[14px] text-on-surface-variant mb-6">Fill in your details below. A Proposify agreement will be sent to your inbox instantly for e-signature — tracked and automated.</p>
-            <!-- Zapier webhook: POST to https://hooks.zapier.com/hooks/catch/YOUR_ID/ → triggers Proposify -->
             <form id="isoForm" class="flex flex-col gap-4">
               <input type="hidden" name="lead_source_detail" value="iso-program">
               <input type="hidden" name="form_id" value="iso_agreement_request">
@@ -1574,9 +1417,6 @@ tailwind.config = {
   </section>
 </div>
 
-<!-- ─────────────────────────────────────────────────
-     /buy-box — BUY BOX (Req. 9)
-───────────────────────────────────────────────── -->
 <div id="subpage-buy-box" class="subpage-section">
   <section class="py-16 md:py-[120px] bg-surface/80 px-6">
     <div class="max-w-[1280px] mx-auto flex flex-col gap-10">
@@ -1620,9 +1460,6 @@ tailwind.config = {
   </section>
 </div>
 
-<!-- ─────────────────────────────────────────────────
-     /press — PRESS ROOM (Req. 9)
-───────────────────────────────────────────────── -->
 <div id="subpage-press" class="subpage-section">
   <section class="py-16 md:py-[120px] bg-surface/80 px-6">
     <div class="max-w-[1280px] mx-auto flex flex-col gap-10">
@@ -1661,14 +1498,10 @@ tailwind.config = {
   </section>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
-     FOOTER (Req. 5 + 9)
-════════════════════════════════════════════════════ -->
 <footer class="bg-deep-navy/95 backdrop-blur-sm px-6 border-t-4 border-accent-gold w-full" id="contact">
   <div class="max-w-[1280px] mx-auto py-16 md:py-[80px]">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
 
-      <!-- Brand Column -->
       <div class="flex flex-col gap-5 col-span-1 md:col-span-2 lg:col-span-1">
         <div class="flex items-center gap-3">
           <img src="assets/LOGO.jpeg" alt="Logo" class="w-12 h-12 rounded object-cover">
@@ -1682,7 +1515,6 @@ tailwind.config = {
         <span class="font-[Inter] text-[12px] text-on-surface-variant">© 2026 MAKE MCA GREAT AGAIN. ALL RIGHTS RESERVED.</span>
       </div>
 
-      <!-- Quick Links (Homepage) -->
       <div class="flex flex-col gap-4">
         <h3 class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-accent-gold">QUICK LINKS</h3>
         <nav class="flex flex-col gap-2">
@@ -1693,7 +1525,6 @@ tailwind.config = {
         </nav>
         <h3 class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-accent-gold mt-4">PARTNER RESOURCES</h3>
         <nav class="flex flex-col gap-2">
-          <!-- Sub-page links (hidden from main nav per Req. 9) -->
           <a href="#apply" onclick="navigateTo('apply')" class="font-[Inter] text-[14px] text-on-surface-variant hover:text-accent-gold transition-colors">Apply / Submit File</a>
           <a href="#iso-program" onclick="navigateTo('iso-program')" class="font-[Inter] text-[14px] text-on-surface-variant hover:text-accent-gold transition-colors">ISO Program</a>
           <a href="#buy-box" onclick="navigateTo('buy-box')" class="font-[Inter] text-[14px] text-on-surface-variant hover:text-accent-gold transition-colors">Buy-Box Parameters</a>
@@ -1702,7 +1533,6 @@ tailwind.config = {
         </nav>
       </div>
 
-      <!-- Social & Legal -->
       <div class="flex flex-col gap-4">
         <h3 class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-accent-gold">SOCIAL</h3>
         <div class="flex flex-wrap gap-2">
@@ -1719,14 +1549,12 @@ tailwind.config = {
           <a href="#" class="font-[Inter] text-[13px] text-on-surface-variant hover:text-accent-gold underline transition-colors">Terms of Service</a>
           <a href="#" class="font-[Inter] text-[13px] text-on-surface-variant hover:text-accent-gold underline transition-colors">Support</a>
         </nav>
-        <!-- Schedule Call -->
         <a class="btn-primary px-5 py-3 rounded-lg font-bold text-[13px] flex items-center gap-2 mt-4 w-fit"
            href="https://calendly.com/brandon-makemca" target="_blank" rel="noopener">
           <span class="material-symbols-outlined text-[16px]">calendar_month</span>Schedule Executive Call
         </a>
       </div>
 
-      <!-- Footer Lead Capture (Req. 5) -->
       <div class="flex flex-col gap-4">
         <h3 class="font-[Work Sans] text-[11px] font-bold tracking-[0.1em] text-accent-gold">STAY IN THE LOOP</h3>
         <p class="font-[Inter] text-[13px] text-on-surface-variant">Deal breakdowns, ISO strategy, and market intelligence. No spam.</p>
@@ -1748,25 +1576,19 @@ tailwind.config = {
   </div>
 </footer>
 
-<!-- ═══════════════════════════════════════════════════
-     FLOATING MULTI-CHANNEL CONTACT WIDGET (Req. 8)
-════════════════════════════════════════════════════ -->
 <div class="float-widget" id="floatWidget">
   <div class="float-widget-panel" id="floatPanel">
     <p class="font-[Work Sans] text-[10px] font-bold tracking-[0.1em] text-accent-gold mb-1">QUICK CONTACT</p>
-    <!-- WhatsApp -->
     <a href="https://wa.me/19995551234?text=Hi+Brandon%2C+I+have+a+question." target="_blank" rel="noopener"
        class="float-action-btn"
        onclick="fireEvent('Click_WhatsApp_Desk','float_widget')">
       <svg class="w-5 h-5 text-accent-gold shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       WhatsApp Desk
     </a>
-    <!-- LinkedIn -->
     <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="float-action-btn">
       <svg class="w-5 h-5 text-[#0A66C2] shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
       LinkedIn
     </a>
-    <!-- SMS / Call -->
     <a href="sms:+19995551234?body=Hi+Brandon," class="float-action-btn">
       <span class="material-symbols-outlined text-[20px] text-accent-gold shrink-0">sms</span>
       Direct SMS
@@ -1775,7 +1597,6 @@ tailwind.config = {
       <span class="material-symbols-outlined text-[20px] text-silver-accent shrink-0">call</span>
       Call Direct
     </a>
-    <!-- Email -->
     <a href="mailto:brandon@makemcagreatagain.com?subject=Deal+Inquiry" class="float-action-btn">
       <span class="material-symbols-outlined text-[20px] text-on-surface-variant shrink-0">mail</span>
       Email Brandon
@@ -1786,9 +1607,6 @@ tailwind.config = {
   </button>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
-     STICKY MOBILE BOTTOM BAR (Req. 7)
-════════════════════════════════════════════════════ -->
 <div class="sticky-mobile-bar pb-safe">
   <a href="https://wa.me/19995551234?text=Hi+Brandon,+I+have+a+%24100k%2B+file."
      target="_blank" rel="noopener"
@@ -1804,22 +1622,15 @@ tailwind.config = {
   </a>
 </div>
 
-<!-- ═══════════════════════════════════════════════════
-     JAVASCRIPT — All logic (Req. 3 + 5 + 7 + 8 + 9 + 10)
-════════════════════════════════════════════════════ -->
 <script>
-// ── Analytics Event Firing (Req. 10) ──
 function fireEvent(eventName, source) {
   if (window.dataLayer) {
     window.dataLayer.push({ event: eventName, source: source, timestamp: new Date().toISOString() });
   }
-  // Meta Pixel custom event (placeholder)
   if (typeof fbq === 'function') { fbq('trackCustom', eventName, { source: source }); }
-  // LinkedIn custom event (placeholder)
   if (typeof lintrk === 'function') { lintrk('track', { conversion_id: eventName }); }
 }
 
-// ── Hash-based Sub-page Routing (Req. 9) ──
 const subpageMap = {
   'partner-insights': 'subpage-partner-insights',
   'apply':            'subpage-apply',
@@ -1831,7 +1642,6 @@ const subpageMap = {
 function navigateTo(page) {
   const homepage = document.getElementById('homepage-main');
   const footer = document.getElementById('contact');
-  // Hide all subpages
   Object.values(subpageMap).forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove('active');
@@ -1846,7 +1656,6 @@ function navigateTo(page) {
       target.classList.add('active');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-    // Update hash without triggering scroll
     history.pushState(null, '', '#' + page);
   }
 }
@@ -1869,7 +1678,6 @@ function handleHash() {
 window.addEventListener('hashchange', handleHash);
 document.addEventListener('DOMContentLoaded', handleHash);
 
-// Override all anchor clicks that point to sub-pages
 document.addEventListener('click', function(e) {
   const anchor = e.target.closest('a[href^="#"]');
   if (!anchor) return;
@@ -1880,7 +1688,6 @@ document.addEventListener('click', function(e) {
   }
 });
 
-// ── Accordion ──
 function toggleAccordion(btn) {
   const content = btn.nextElementSibling;
   const isOpen = content.classList.contains('open');
@@ -1899,7 +1706,6 @@ function toggleAccordion(btn) {
   }
 }
 
-// ── Hero Video Facade (Req. 1) ──
 function playHeroVideo() {
   const facade = document.getElementById('heroVideoFacade');
   const video = document.getElementById('heroVideo');
@@ -1917,7 +1723,6 @@ function playHeroVideo() {
   video.play().catch(() => { facade.classList.remove('playing'); });
 }
 
-// ── Lazy Reel Loading (Req. 1) ──
 function lazyLoadReel(facadeEl, videoId) {
   if (facadeEl.dataset.loaded === 'true') return;
   facadeEl.dataset.loaded = 'true';
@@ -1927,14 +1732,12 @@ function lazyLoadReel(facadeEl, videoId) {
   container.innerHTML = '<iframe title="Short video" loading="lazy" style="width:100%;height:100%;border:none;" src="https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
 }
 
-// ── Reels Carousel Scroll ──
 function scrollReels(dir) {
   const container = document.getElementById('reelsContainer');
   const itemHeight = container.querySelector('.reel-item') ? container.querySelector('.reel-item').offsetHeight + 16 : 400;
   container.scrollBy({ top: dir * itemHeight, behavior: 'smooth' });
 }
 
-// ── Floating Widget Toggle (Req. 8) ──
 document.addEventListener('DOMContentLoaded', function() {
   const toggle = document.getElementById('floatToggle');
   const panel = document.getElementById('floatPanel');
@@ -1946,7 +1749,6 @@ document.addEventListener('DOMContentLoaded', function() {
       icon.textContent = isOpen ? 'headset_mic' : 'close';
     });
   }
-  // Close on outside click
   document.addEventListener('click', function(e) {
     if (!document.getElementById('floatWidget').contains(e.target)) {
       panel.classList.remove('open');
@@ -1955,7 +1757,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-// ── AJAX Form Submission Helper (Req. 5) ──
 function populateLeadSourceDetails() {
   const params = new URLSearchParams(window.location.search);
   const source = params.get('utm_source') || 'direct';
@@ -1977,12 +1778,8 @@ function submitAjaxForm(formEl, successEl, extraData) {
   const data = new FormData(formEl);
   if (extraData) { Object.entries(extraData).forEach(([k, v]) => data.append(k, v)); }
 
-  // HubSpot submission endpoint (replace with real portal/form IDs):
-  // const hsUrl = 'https://api.hsforms.com/submissions/v3/integration/submit/YOUR_PORTAL_ID/YOUR_FORM_GUID';
   const ajaxUrl = window.__MCA_FORM_ENDPOINT__ || window.__WP_AJAX_URL__;
 
-  // Static hosting has no server endpoint. Keep the interaction AJAX-shaped and
-  // show the inline confirmation; configure __MCA_FORM_ENDPOINT__ for production.
   if (!ajaxUrl) {
     window.setTimeout(() => showSuccess(formEl, successEl), 350);
     return;
@@ -1992,9 +1789,9 @@ function submitAjaxForm(formEl, successEl, extraData) {
     .then(r => { if (!r.ok) throw new Error('Network error'); return r.json(); })
     .then(d => {
       if (d.success) { showSuccess(formEl, successEl); }
-      else { showSuccess(formEl, successEl); } // Demo fallback
+      else { showSuccess(formEl, successEl); }
     })
-    .catch(() => { showSuccess(formEl, successEl); }) // Demo fallback
+    .catch(() => { showSuccess(formEl, successEl); })
     .finally(() => { if (btn) { btn.disabled = false; } });
 }
 
@@ -2003,14 +1800,12 @@ function showSuccess(formEl, successEl) {
   if (successEl) { successEl.classList.add('show'); }
 }
 
-// ── Onboarding Form (Hero guidelines) ──
 function submitOnboardingForm(intent) {
   const form = document.getElementById('onboardingForm');
   document.getElementById('formIntent').value = intent;
   submitAjaxForm(form, document.getElementById('onboardingSuccess'), { action: 'mca_form_submit', intent: intent });
 }
 
-// ── Hero Mini Form ──
 document.addEventListener('DOMContentLoaded', function() {
   populateLeadSourceDetails();
 
@@ -2041,7 +1836,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // ── Blog Form ──
   const blogForm = document.getElementById('blogForm');
   if (blogForm) {
     blogForm.addEventListener('submit', function(e) {
@@ -2050,7 +1844,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // ── Footer Form ──
   const footerForm = document.getElementById('footerForm');
   if (footerForm) {
     footerForm.addEventListener('submit', function(e) {
@@ -2059,20 +1852,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // ── ISO / Proposify Form ──
   const isoForm = document.getElementById('isoForm');
   if (isoForm) {
     isoForm.addEventListener('submit', function(e) {
       e.preventDefault();
       if (!isoForm.checkValidity()) { isoForm.reportValidity(); return; }
       fireEvent('Submit_Proposify_Form', 'iso_program_form');
-      // Zapier webhook trigger (replace URL):
-      // fetch('https://hooks.zapier.com/hooks/catch/YOUR_ID/', { method:'POST', body: new FormData(isoForm) });
       submitAjaxForm(isoForm, document.getElementById('isoSuccess'), { action: 'mca_iso_form_submit' });
     });
   }
 
-  // ── Apply Form + Revenue Routing ──
   const applyForm = document.getElementById('applyForm');
   const revenueSelect = document.getElementById('revenueSelect');
   if (revenueSelect) {
@@ -2106,7 +1895,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Defer third-party reel iframes until the carousel is near the viewport.
   const reelFacades = document.querySelectorAll('#reelsContainer .video-facade');
   if ('IntersectionObserver' in window) {
     const reelObserver = new IntersectionObserver(entries => {
@@ -2122,7 +1910,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// ── File Upload Drag & Drop (Req. 3) ──
 function handleDragOver(e) {
   e.preventDefault();
   document.getElementById('fileDropZone').classList.add('dragover');
@@ -2138,7 +1925,7 @@ function handleDrop(e) {
     const transfer = new DataTransfer();
     Array.from(e.dataTransfer.files).forEach(file => transfer.items.add(file));
     input.files = transfer.files;
-  } catch (_) { /* Older browsers still show the selected file names. */ }
+  } catch (_) {  }
   handleFiles(e.dataTransfer.files);
 }
 function handleFileSelect(input) {
@@ -2163,7 +1950,6 @@ function handleFiles(files) {
   });
 }
 
-// ── Mobile Menu ──
 (function() {
   const menuBtn = document.getElementById('mobile-menu-btn');
   const menuClose = document.getElementById('mobile-menu-close');
@@ -2204,6 +1990,6 @@ function handleFiles(files) {
 })();
 </script>
 
-</div><!-- /.content-layer -->
+</div>
 </body>
 </html>
